@@ -1,9 +1,89 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 .profilepic {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 280px;
+  height: 280px;
 }
-.card {
-  border: none;
-  border-right: 1px solid rgba(0, 0, 0, 0.125);
+#footer {
+  /* background: #4469b0 none repeat scroll 0% 0%; */
+  padding: 10px;
+  clear: both;
+  color: #ddd;
+  display: block;
+}
+
+#footer .widgettitle {
+  margin: 0px;
+  padding: 0px 0px 15px;
+  border-bottom: medium none;
+}
+#footer h4 {
+  color: #fff;
+}
+
+#footer ul {
+  list-style: outside none none;
+}
+
+#footer .widget {
+  padding: 7px 0px;
+  margin: 0px;
+}
+.widget span {
+  padding-left: 10px;
+}
+
+#footer a {
+  color: #ddd;
+}
+.header-content {
+  text-align: center;
+  /* background: #4469b0 none repeat scroll 0% 0%; */
+  margin-bottom: 0;
+  color: #fff;
+  padding: 10px;
+}
+.jumbotron {
+  height: 700px;
+  background: #fff;
+}
+.tab-content {
+  margin-left: 15px;
+  font-size: 1rem;
+}
+#aboutme img {
+  float: left;
+}
+.downloadcv {
+  float: right;
+  margin-top: 20px;
+}
+.bgColor {
+  background: #4469b0 none repeat scroll 0% 0%;
+}
+.progress {
+  height: 35px;
+}
+.progress .skill {
+  font: normal 12px "Open Sans Web";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+}
+.skillset {
+  margin-top: 25px;
+}
+.skill-bar {
+  margin-top: 10px;
 }
