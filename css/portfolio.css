@@ -44,7 +44,6 @@
   padding: 10px;
 }
 .jumbotron {
-  height: 700px;
   background: #fff;
 }
 .tab-content {
@@ -53,9 +52,11 @@
 }
 #aboutme img {
   float: left;
+  margin-top: 15px;
 }
 .downloadcv {
   float: right;
+  margin-bottom: 30px;
   margin-top: 20px;
 }
 .bgColor {
@@ -87,3 +88,84 @@
 .skill-bar {
   margin-top: 10px;
 }
+.mr-3,
+.mx-3 {
+  margin-right: 3rem !important;
+}
+.timebar_element {
+  position: relative;
+  overflow: hidden;
+}
+.timebar-date {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 130px;
+  padding: 30px 15px;
+  color: #999;
+  text-align: right;
+  font-style: italic;
+  line-height: 30px;
+  border-right: 1px solid #ddd;
+}
+.timebar.portfolio-timebar
+  .timebar_element:first-child
+  .timebar-date
+  .timebar-date-content {
+  margin-top: -10px;
+  display: block;
+}
+.timebar-contents {
+  padding: 30px 0;
+  margin-left: 160px;
+  overflow: hidden;
+}
+.timebar-date:after {
+  content: " ";
+  position: absolute;
+  top: 42.5px;
+  right: -2.5px;
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #4469b0;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.orgName {
+  margin-left: 5px;
+}
+.tags {
+  margin: 10px 10px 10px 25px;
+}
+.tags a {
+  /* background-color: #756f5d; */
+  padding: 10px;
+  color: #fff;
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  line-height: 11px;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  text-decoration: none;
+}
+.tags a:hover {
+  background-color: #a38018;
+}
+#opensourcecontribution div {
+  margin-left: 23px;
+}
+/* .span4 img {
+  margin-right: 10px;
+}
+.span4 .img-left {
+  float: left;
+}
+.span4 .img-right {
+  float: right;
+} */
