@@ -260,14 +260,15 @@ button.bg-primary:hover {
 .timebar_element {
   position: relative;
   overflow: hidden;
+  right: 35px;
 }
 .timebar-date {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 130px;
-  padding: 30px 15px;
+  width: 95px;
+  padding: 30px 10px 0 0;
   color: #999;
   text-align: right;
   font-style: italic;
@@ -282,9 +283,10 @@ button.bg-primary:hover {
   display: block;
 }
 .timebar-contents {
-  margin-left: 160px;
+  margin-left: 115px;
   overflow: hidden;
   padding: 10px 0;
+  margin-top: 23px;
 }
 .timebar-date:after {
   content: " ";
